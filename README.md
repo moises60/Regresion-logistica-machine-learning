@@ -36,7 +36,7 @@ Pero añadía más complejidad al problema y al ser una regresión lineal era im
 ## Instalación
 
 ```bash
-git clone https://github.com/tu_usuario/regresion_logistica_perfume.git
+git clone https://github.com/moises60/Regresion-logistica-machine-learning.git
 ```
 ### Uso 
 ### Creación del Dataset 
@@ -53,10 +53,11 @@ git clone https://github.com/tu_usuario/regresion_logistica_perfume.git
 ## 1. Descripción del Dataset
 ![Distribución de la Variable 'Compra'](assets/distribucion_variable_dependiente.png)
 
-La distribución de la variable objetivo está relativamente balanceada, con una ligera mayoría de mujeres que compraron el perfume (52%) en comparación con las que no lo hicieron (48%).
+- La distribución de la variable objetivo está relativamente balanceada, con una ligera mayoría de mujeres que compraron el perfume (52%) en comparación con las que no lo hicieron (48%).
 
 ## 2. Evaluación del Modelo
 ![Matriz de Confusión](assets/matriz_confusion.png)
+
 Verdaderos Negativos (TN): 36
 Mujeres que no compraron el perfume y el modelo lo predijo correctamente.
 Falsos Positivos (FP): 11
@@ -66,7 +67,7 @@ Mujeres que compraron el perfume, pero el modelo predijo que no lo harían.
 Verdaderos Positivos (TP): 29
 Mujeres que compraron el perfume y el modelo lo predijo correctamente.
 
-Reporte de Clasificación
+- Reporte de Clasificación
               precision    recall  f1-score   support
 
            0       0.60      0.77      0.67        47
