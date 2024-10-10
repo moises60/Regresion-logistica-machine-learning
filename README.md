@@ -72,8 +72,6 @@ Mujeres que compraron el perfume y el modelo lo predijo correctamente.
 
            0       0.60      0.77      0.67        47
            1       0.72      0.55      0.62        53
-
-    accuracy        -         -        0.65       100
    macro avg       0.66      0.66      0.65       100
 weighted avg       0.67      0.65      0.65       100
 
