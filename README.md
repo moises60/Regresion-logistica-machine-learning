@@ -73,7 +73,7 @@ Mujeres que compraron el perfume y el modelo lo predijo correctamente.
            0       0.60      0.77      0.67        47
            1       0.72      0.55      0.62        53
 
-    accuracy                           0.65       100
+    accuracy        -         -        0.65       100
    macro avg       0.66      0.66      0.65       100
 weighted avg       0.67      0.65      0.65       100
 
@@ -86,7 +86,7 @@ El modelo logra una precisión global del 65%, lo que indica un desempeño acept
 
 ![Importancia de las variavles del modelo](assets/coeficientes_modelo.png)
 
-ambos coeficientes indican que cuanto masyor es la edad o mayor es el poder economico hay mas posibilidades de comprarlo pero no es una regla lineal. 
+Ambos coeficientes indican que cuanto masyor es la edad o mayor es el poder economico hay mas posibilidades de comprarlo pero no es una regla lineal. 
 
 
 ## 4. Área de Decisión del Modelo en el Conjunto de Prueba
