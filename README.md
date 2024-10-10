@@ -74,8 +74,8 @@ Reporte de Clasificación
            1       0.72      0.55      0.62        53
 
     accuracy                           0.65       100
-   macro avg       0.66      0.66      0.65       100
-weighted avg       0.67      0.65      0.65       100
+   macro_avg       0.66      0.66      0.65       100
+weighted_avg       0.67      0.65      0.65       100
 
 El modelo es más efectivo en predecir la clase 0 (No Compra), con un recall alto de 77%, lo que indica que es bueno para identificar a las mujeres que realmente no comprarán el perfume.
 Sin embargo, el rendimiento en la clase 1 (Compra) es moderado, con un recall de 55%, lo que sugiere que el modelo tiene dificultades para identificar correctamente a todas las mujeres que sí comprarán el perfume.
